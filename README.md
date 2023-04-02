@@ -10,3 +10,5 @@ The input context and question are tokenized and converted into numerical embedd
 The embeddings of the context and question are combined and fed through a neural network, such as a multi-layer perceptron (MLP), to produce a probability distribution over the start and end positions of the text span that contains the answer.
 The network predicts the start and end positions of the answer span based on the probability distribution, and the corresponding text span is extracted from the context.
 The extracted text span is returned as the answer to the original question.
+
+- An embedding is a way to represent the meaning or context of a token in a continuous vector space, which is learned through an optimization process during training.
